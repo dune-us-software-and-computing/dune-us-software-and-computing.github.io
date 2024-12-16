@@ -3,10 +3,11 @@ permalink: /about/team.html
 layout: people
 title: DUNE-US S&C Team
 ---
-<!---
+
 {% include org_chart.html %}
 
 {% include wbs_list.html %}
+{::comment}
 {% assign areas = wbs_list | hash_fetch: site.data.orgs | sort_natural: "wbs_no" %}
 {% assign former_members = site.data.people | values
                                     | where_exp:"item", "item.active == false and item.hidden != true"
@@ -35,5 +36,5 @@ title: DUNE-US S&C Team
     {% include standard_person_card.md person=former_person %}
 {% endfor %}
 </div>
-</div> 
----> 
+</div>
+{:/comment}
