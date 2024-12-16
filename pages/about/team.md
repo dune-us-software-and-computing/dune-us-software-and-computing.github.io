@@ -3,7 +3,7 @@ permalink: /about/team.html
 layout: people
 title: DUNE-US S&C Team
 ---
-
+<!---
 {% include org_chart.html %}
 
 {% include wbs_list.html %}
@@ -36,4 +36,4 @@ title: DUNE-US S&C Team
 {% endfor %}
 </div>
 </div> 
- 
+---> 
