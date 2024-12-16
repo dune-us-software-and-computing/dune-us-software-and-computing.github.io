@@ -5,16 +5,11 @@ permalink: /about/overview.html
 ---
 # Overview
 
-- **Mission:** “to develop and operate the software and computing resources necessary to process CMS data expeditiously and to enable U.S. physicists to fully participate in the physics of CMS.”
+- **Mission:** "provide the computing resources necessary to process DUNE data efficiently, and to develop core software in support of the data analysis efforts of the international DUNE collaboration to enable discovery physics, in collaboration with international DUNE Software and Computing partners."
 
-- U.S. CMS leadership in S&C enables U.S. physicists to perform the most important and highest-profile analyses
-
-- Continued U.S. investment in S&C is critical for the success of U.S. physicists
-  - Ongoing operation of infrastructure and maintenance of software
-  - Future evolution to enable HL-LHC
-
+- U.S. leadership in S&C enables U.S. physicists to perform the most important and highest-profile analyses.
 
 - Trends
   - Community software efforts
   - Accelerators as new hardware architectures
-  - R&D collaborations (IRIS-HEP, CCE, OSG, HSF, ESnet, WLCG, Fermilab, U.S. CMS universities, and U.S. ATLAS)
+  - R&D collaborations (IRIS-HEP, CCE, OSG, HSF, ESnet, WLCG, Fermilab, DUNE U.S. universities, USATLAS, USCMS)
