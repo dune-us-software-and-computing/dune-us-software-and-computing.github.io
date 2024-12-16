@@ -1,0 +1,24 @@
+---
+permalink: /wbs1-facilities.html
+layout: wbs-area
+wbs_no: 1
+title: Facilities
+short_title: Facilities
+pagetype: wbs-area
+---
+
+## Overview
+
+Facilities are responsible for establishing the necessary computing resources for storage, network, batch and other services to ...
+
+The facilities are members of the [Open Science Grid (OSG)](https://opensciencegrid.org/) consortium.
+
+### Services
+- Distributed Compute
+- Distributed disk and tape storage
+- Networking
+
+{% include image_caption.html url="pages/wbs-areas/wbs1/tier2-usage.jpg" alt="Tier 2 Usage Chart" description="Total (green) and central production (red) processing usage at the 7 U.S. CMS Tier-2 sites monthly since 2016 in core-months, compared to the total purchased compute capacity, in batch slots (black). The difference between the total and central production usage is physics analysis. Note that before August 2017, production usage fluctuated due to inconsistent queue depth, while since then the sites have been consistently and fully utilized. Some months total usage is more than the purchased processing capacity due to opportunistic cycles used at campus clusters or HPC’s." %}
+
+### Networking and Security
+The facilities area also oversees operations in the U.S. in the area of networking, where we participate in various network capacity and capability studies in planning future needs.

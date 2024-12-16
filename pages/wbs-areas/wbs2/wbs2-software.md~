@@ -1,0 +1,21 @@
+---
+permalink: /wbs2-software.html
+layout: wbs-area
+wbs_no: 2
+title: Software Operations
+short_title: Software
+pagetype: wbs-area
+---
+
+## Overview
+The Software group develops and supports software that enables DUNE data processing. 
+
+### 2.1 Computing Infrastructure and Services
+* **2.1.1 Data Management Metadata** refers to the services that track metadata for CMS data handling.  The two serices are the CMS *Data Bookeeping Service* (DBS) and the *Data Aggregation System* (DAS).  Both pieces of software provide facilities for locating data and tracking metadata.
+* **2.1.2 Monitoring** refers to the collection of software, web services, and infrastructure to facilitate monitoring, both in real time and historical, of CMS data processing.
+* **2.1.3 Rucio** software manages data transfers across the globally distributed CMS computational infrastructure.  Rucio is community-supported software used across a number of HEP experiments.  U.S. CMS is leading the transition of CMS to Rucio to achieve more powerful and flexible data management capabilities.
+* **2.1.4 GlideinWMS** is the software resposible for provisioning computing resources for CMS.  It creates a *global pool* of computational resources and handles matching of computational tasks with the appropriate resources on which to execute them.
+* **2.1.5 Workflow Management** software converts abstract workflows into sets of computational tasks that can be executed with the CMS global pool.  This software is responsible for coordinating and controlling the computational work of data processing as well as tracking its progress.
+* **2.1.6 XRootD** software provides the capability to stream data from storage at one computational site to a processing task at a different site.  This capability increases the flexibility of the CMS distributed computational infrastructure.
+* **2.1.7 Web Services Deployment** is the infrastructure facilitating the deployment of web services in support of data processing.  The underlying technology involves Docker containers orchestrated via Kubernetes.
+
