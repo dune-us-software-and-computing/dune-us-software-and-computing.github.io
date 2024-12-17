@@ -1,7 +1,7 @@
 ---
 permalink: /about/team_by_institution.html
 layout: people
-title: US CMS S&C Team
+title: DUNE-US S&C Team
 ---
 
 {% include org_chart.html %}
