@@ -1,7 +1,7 @@
 ---
 permalink: /docs/update_page.html
 layout: default
-title: "Updating a page on USCMS S&C website"
+title: "Updating a page on the DUNE-US S&C website"
 ---
 
 Lorem ipsum
