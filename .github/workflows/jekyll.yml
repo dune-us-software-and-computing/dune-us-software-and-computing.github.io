@@ -58,24 +58,24 @@ jobs:
         with:
           enable_cache: true
 
-      - name: GitHub Pages action
-        # if: success() && github.event_name == 'push' && github.ref == 'refs/heads/main'
-        uses: peaceiris/actions-gh-pages@v3.7.3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          # deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          #publish_branch: master
-          publish_dir: _site
-          allow_empty_commit: true
+#      - name: GitHub Pages action
+#        # if: success() && github.event_name == 'push' && github.ref == 'refs/heads/main'
+#        uses: peaceiris/actions-gh-pages@v3.7.3
+#        with:
+#          github_token: ${{ secrets.GITHUB_TOKEN }}
+#          # deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+#          #publish_branch: master
+#          publish_dir: _site
+#          allow_empty_commit: true
 
 # Deployment job
-#  deploy:
-#    environment:
-#      name: github-pages
-#      url: ${{ steps.deployment.outputs.page_url }}
-#    runs-on: ubuntu-latest
-#    needs: build
-#    steps:
-#      - name: Deploy to GitHub Pages
-#        id: deployment
-#        uses: actions/deploy-pages@v4
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
