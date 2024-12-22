@@ -60,7 +60,7 @@ jobs:
         # if: success() && github.event_name == 'push' && github.ref == 'refs/heads/main'
         uses: peaceiris/actions-gh-pages@v3.7.3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # github_token: ${{ secrets.GITHUB_TOKEN }}
           #deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           #publish_branch: master
           publish_dir: _site
