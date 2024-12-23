@@ -1,4 +1,9 @@
-Name: HL-LHC R&D
+Name: R&D
 wbs_no: 4
 personnel:
+  - abashyal
   - gemmeren
+  - jwolcott
+  - kknoepfel
+  - mbhattac
+  - xjin
