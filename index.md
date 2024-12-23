@@ -17,3 +17,11 @@ DUNE-US Software and Computing is broken down into four areas:
 {% for mypage in areas %}
 - [{{mypage.title}} (WBS {{mypage.wbs_no}})]({{mypage.permalink}})
 {% endfor %}
+
+# Please Excuse our dust
+
+These pages are still under heavy construction.
+
+### Acknowledgments
+
+We acknowledge and thank the [USCMS Software and Computing Operations Program](https://uscms-software-and-computing.github.io) for assistance during our initial site setup.
