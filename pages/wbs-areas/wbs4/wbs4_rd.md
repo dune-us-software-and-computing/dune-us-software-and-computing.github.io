@@ -1,5 +1,5 @@
 ---
-permalink: /wbs4-facilities.html
+permalink: /wbs4-rd.html
 layout: wbs-area
 wbs_no: 4
 title: R&D
