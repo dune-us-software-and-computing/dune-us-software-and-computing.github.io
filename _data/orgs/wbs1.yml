@@ -1,7 +1,7 @@
 name: Facilities
 wbs_no: 1
 personnel:
-  - jkleykamp
-  - rheath
   - timm
+  - rheath
+  - jkleykamp
   - twalton
