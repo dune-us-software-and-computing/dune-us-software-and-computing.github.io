@@ -17,9 +17,9 @@ figure.image-caption .figcaption { font-size: 0.8rem; }
 
 .footer-dark { border-top-color: 000c97; border-top-style: solid; border-top-width: 3px; padding-top: 0.5rem; padding-bottom: 1.5rem; padding-left: 0; padding-right: 0; position: absolute; width: 100%; bottom: 0; }
 
-@media not print { .footer-dark { background-image: linear-gradient(to right, #007bff 0%, #fff 60%); background-repeat: repeat-x; } }
+@media not print { .footer-dark { background-image: linear-gradient(to right, #007bff 0%, #fff 100%); background-repeat: repeat-x; } }
 
-@media (prefers-color-scheme: dark) { .footer-dark { background-image: linear-gradient(to right, #007bff 0%, #000 60%); background-repeat: repeat-x; } }
+@media (prefers-color-scheme: dark) { .footer-dark { background-image: linear-gradient(to right, #007bff 0%, #000 70%); background-repeat: repeat-x; } }
 
 @media only screen and (min-width: 768px) { .footer-dark { padding-left: 1.0rem; padding-right: 0.5rem; } }
 
