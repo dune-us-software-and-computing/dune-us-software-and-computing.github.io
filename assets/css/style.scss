@@ -61,7 +61,7 @@ figure.image-caption{
 
 .footer-dark {
   @media not print {
-    @include gradient-x($primary, $navbar-dark-active-color, 0%, 100%);
+    @include gradient-x($primary, $navbar-dark-active-color, 0%, 60%);
   }
   @media (prefers-color-scheme: dark) {
     @include gradient-x($primary, $black, 0%, 100%);
