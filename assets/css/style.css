@@ -19,7 +19,7 @@ figure.image-caption .figcaption { font-size: 0.8rem; }
 
 @media not print { .footer-dark { background-image: linear-gradient(to right, #007bff 0%, #fff 100%); background-repeat: repeat-x; } }
 
-@media (prefers-color-scheme: dark) { .footer-dark { background-image: linear-gradient(to right, #007bff 0%, #000 75%); background-repeat: repeat-x; } }
+@media (prefers-color-scheme: dark) { .footer-dark { background-image: linear-gradient(to right, #007bff 0%, #000 100%); background-repeat: repeat-x; } }
 
 @media only screen and (min-width: 768px) { .footer-dark { padding-left: 1.0rem; padding-right: 0.5rem; } }
 
