@@ -64,7 +64,7 @@ figure.image-caption{
     @include gradient-x($primary, $navbar-dark-active-color, 0%, 100%);
   }
   @media (prefers-color-scheme: dark) {
-    @include gradient-x($primary, $black, 50%, 100%);
+    @include gradient-x($primary, $black, 25%, 75%);
   }
   border-top-color: 000c97;
 
