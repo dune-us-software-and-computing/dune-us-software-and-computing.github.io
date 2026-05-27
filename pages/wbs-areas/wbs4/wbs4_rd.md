@@ -2,7 +2,7 @@
 permalink: /wbs4-rd.html
 layout: wbs-area
 wbs_no: 4
-title: R&D
+title: Software and Computing R&D
 short_title: R&D
 pagetype: wbs-area
 ---
@@ -16,6 +16,7 @@ The R&D area coordinates the centralized R&D effort for tackling the challenges 
 - *Acelerator Integration*: Provide data models, tools and abstraction to allow DUNE algorithms to use Compute Accelerators such as GPU.
 - *Platform Evolution and Sustainability*: Investigate and plan for the use of new platforms, including existing and emerging HPC, by DUNE computing. Especially focusing on making DUNE computing more sustainable by allowing the utilization of more energy efficient computing resources.
 - *Analysis infrastructure*: Developing new facilities and approaches for analysis during DUNE's lifecycle.
+- *Artificial Intelligence*: Integrating AI/ML development efforts.
 
 There are significant collaborations with other projects such as [OSG](www.osg-htc.org), [HEP-CCE](https://hepcce.org/), [ESNet](http://es.net/).
 
