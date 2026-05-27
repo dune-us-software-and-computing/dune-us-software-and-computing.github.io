@@ -1,9 +1,9 @@
 name: Barnali Chowdhury
 shortname: bchowdhury
-title: Persistency L3 Manager
-active: true
+title:
+active: false
 institution: Argonne National Laboratory
-website: https://www.anl.gov/profile/barnali-chowdhury
+website:
 photo: /assets/images/team/bchowdhury.jpg
 presentations:
 hidden: false
