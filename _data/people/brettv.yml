@@ -3,7 +3,7 @@ shortname: brettv
 title:
 active: true
 institution: Brookhaven National Laboratory
-website:
-photo: /assets/logos/bnl_logo_horizontal_rgb.png
+website: https://www.phy.bnl.gov/~bviren/
+photo: /assets/images/team/brettv.jpg
 presentations:
 hidden: false
